@@ -108,7 +108,7 @@
 {id:40, answer:"C", q:"The journalist gave _____ detailed explanation that the audience understood the issue clearly.", opts:{A:"so",B:"such",C:"such a",D:"so a"}},
 
 {id:41, answer:"D", q:"The television program was _____ popular that it attracted viewers from all over the country.", opts:{A:"such",B:"very",C:"such a",D:"so"}},
-{id:42, answer:"B", q:"It was _____ influential documentary that it changed many people’s opinions.", opts:{A:"so",B:"such",C:"such an",D:"so an"}},
+{id:42, answer:"C", q:"It was _____ influential documentary that it changed many people’s opinions.", opts:{A:"so",B:"such",C:"such an",D:"so an"}},
 {id:43, answer:"B", q:"The online article contained _____ misleading information that many readers believed it.", opts:{A:"so",B:"such",C:"such a",D:"so a"}},
 {id:44, answer:"A", q:"If people continue cutting down forests, many animals _____ their natural habitats.", opts:{A:"will lose",B:"lose",C:"lost",D:"would lose"}},
 {id:45, answer:"D", q:"If we reduce greenhouse gas emissions, global temperatures _____ more slowly.", opts:{A:"rise",B:"would rise",C:"rose",D:"will rise"}},
