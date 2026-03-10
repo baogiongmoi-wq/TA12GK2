@@ -96,10 +96,10 @@
 {id:30, answer:"B", q:"Poachers are often unaware of the _____ consequences of their actions.", opts:{A:"destroy",B:"destructive",C:"destructively",D:"destruction"}},
 
 {id:31, answer:"A", q:"Companies often _____ their IT teams upgrade AI systems regularly.", opts:{A:"have",B:"get",C:"make",D:"do"}},
-{id:32, answer:"D", q:"The manager had the technicians _____ the AI software immediately.", opts:{A:"install",B:"installed",C:"installing",D:"to install"}},
+{id:32, answer:"A", q:"The manager had the technicians _____ the AI software immediately.", opts:{A:"install",B:"installed",C:"installing",D:"to install"}},
 {id:33, answer:"D", q:"The company will get a specialist _____ the security system.", opts:{A:"check",B:"checked",C:"checking",D:"to check"}},
 {id:34, answer:"B", q:"Many organizations have their data _____ by AI experts.", opts:{A:"analyze",B:"analyzed",C:"analyzing",D:"to analyze"}},
-{id:35, answer:"D", q:"The government will have experts _____ the ethical risks of AI.", opts:{A:"assess",B:"assessed",C:"assessing",D:"to assess"}},
+{id:35, answer:"A", q:"The government will have experts _____ the ethical risks of AI.", opts:{A:"assess",B:"assessed",C:"assessing",D:"to assess"}},
 
 {id:36, answer:"C", q:"He talks about television production as though he _____ a professional producer, but he has never worked in media.", opts:{A:"is",B:"was",C:"were",D:"has been"}},
 {id:37, answer:"B", q:"He gives advice about journalism as though he _____ many years of experience, but he graduated only last month.", opts:{A:"has",B:"had",C:"having",D:"has had"}},
