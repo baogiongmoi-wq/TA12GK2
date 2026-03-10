@@ -60,15 +60,15 @@
   // --- QUESTIONS DATA ---
   const questionsData = [
 {id:1, answer:"A", q:"Many companies use AI to analyze large amounts of ______ more efficiently.", opts:{A:"data",B:"noise",C:"water",D:"pollution"}},
-{id:2, answer:"A", q:"Facial recognition systems can identify individuals by analyzing their unique ______ features.", opts:{A:"digital",B:"artificial",C:"physical",D:"virtual"}},
+{id:2, answer:"C", q:"Facial recognition systems can identify individuals by analyzing their unique ______ features.", opts:{A:"digital",B:"artificial",C:"physical",D:"virtual"}},
 {id:3, answer:"D", q:"Cyber-bullying is popular online, causing emotional ______ and even leads to suicide.", opts:{A:"stimulation",B:"motivation",C:"excitement",D:"disorder"}},
-{id:4, answer:"C", q:"One concern about AI development is the potential loss of human ______.", opts:{A:"employment",B:"happiness",C:"culture",D:"language"}},
+{id:4, answer:"A", q:"One concern about AI development is the potential loss of human ______.", opts:{A:"employment",B:"happiness",C:"culture",D:"language"}},
 {id:5, answer:"B", q:"Students who ______ social media so much can lose the ability to think critically.", opts:{A:"give up",B:"rely on",C:"separate from",D:"split into"}},
 {id:6, answer:"B", q:"Some experts believe that AI will greatly ______ human capabilities in the future.", opts:{A:"replace",B:"enhance",C:"remove",D:"delete"}},
 {id:7, answer:"C", q:"Ethical guidelines are necessary to ensure the responsible ______ of AI.", opts:{A:"disappearance",B:"reduction",C:"development",D:"avoidance"}},
 {id:8, answer:"A", q:"Using social networks helps you ______ in touch with friends and family members any time.", opts:{A:"keep",B:"lose",C:"have",D:"make"}},
 {id:9, answer:"A", q:"In the early 21st century, with the ______ of mobile communication technology, the mobile phone has emerged as a new channel.", opts:{A:"explosion",B:"explanation",C:"exploitation",D:"exploration"}},
-{id:10, answer:"C", q:"I haven’t read any medical books on this subject for a long time, so I’m ______ with recent developments.", opts:{A:"out of condition",B:"out of reach",C:"out of date",D:"out of touch"}},
+{id:10, answer:"B", q:"I haven’t read any medical books on this subject for a long time, so I’m ______ with recent developments.", opts:{A:"out of condition",B:"out of reach",C:"out of date",D:"out of touch"}},
 
 {id:11, answer:"B", q:"The mass media are ______ of communication, such as books, newspapers, radio, television and the Internet.", opts:{A:"models",B:"means",C:"parts",D:"types"}},
 {id:12, answer:"C", q:"Teens can become ______ social networking if they can’t control the time they spend online.", opts:{A:"separated from",B:"indifferent to",C:"addicted to",D:"exhausted by"}},
@@ -83,15 +83,15 @@
 
 {id:21, answer:"B", q:"Climate change has increased the frequency of natural ______ such as forest fires and severe storms.", opts:{A:"predators",B:"disasters",C:"emissions",D:"resources"}},
 {id:22, answer:"C", q:"Captive breeding programs aim to increase the population of critically ______ species.", opts:{A:"expanding",B:"surviving",C:"endangered",D:"hunting"}},
-{id:23, answer:"A", q:"Governments must ______ immediate action to prevent further environmental damage.", opts:{A:"make",B:"take",C:"do",D:"give"}},
+{id:23, answer:"B", q:"Governments must ______ immediate action to prevent further environmental damage.", opts:{A:"make",B:"take",C:"do",D:"give"}},
 {id:24, answer:"D", q:"AI systems can work more ______ than humans in repetitive tasks.", opts:{A:"inefficient",B:"efficiency",C:"efficient",D:"efficiently"}},
 {id:25, answer:"B", q:"Many experts are concerned about the ______ use of AI in surveillance.", opts:{A:"responsible",B:"irresponsible",C:"responsibility",D:"responsibly"}},
 
-{id:26, answer:"A", q:"Scientists are working ______ to improve AI accuracy.", opts:{A:"constantly",B:"inconstant",C:"constancy",D:"constant"}},
-{id:27, answer:"A", q:"Climate change has had a significant ______ on marine ecosystems worldwide.", opts:{A:"affect",B:"affection",C:"effect",D:"effective"}},
+{id:26, answer:"D", q:"Scientists are working ______ to improve AI accuracy.", opts:{A:"constantly",B:"inconstant",C:"constancy",D:"constant"}},
+{id:27, answer:"C", q:"Climate change has had a significant ______ on marine ecosystems worldwide.", opts:{A:"affect",B:"affection",C:"effect",D:"effective"}},
 {id:28, answer:"D", q:"The law was strictly ______ to prevent illegal wildlife trade.", opts:{A:"enforcement",B:"enforcing",C:"enforce",D:"enforced"}},
 {id:29, answer:"B", q:"Environmental ______ should be included in school curricula to educate young people.", opts:{A:"aware",B:"awareness",C:"awarely",D:"unaware"}},
-{id:30, answer:"D", q:"Poachers are often unaware of the ______ consequences of their actions.", opts:{A:"destroy",B:"destructive",C:"destructively",D:"destruction"}},
+{id:30, answer:"B", q:"Poachers are often unaware of the ______ consequences of their actions.", opts:{A:"destroy",B:"destructive",C:"destructively",D:"destruction"}},
 
 {id:31, answer:"A", q:"Companies often ______ their IT teams upgrade AI systems regularly.", opts:{A:"have",B:"get",C:"make",D:"do"}},
 {id:32, answer:"D", q:"The manager had the technicians ______ the AI software immediately.", opts:{A:"install",B:"installed",C:"installing",D:"to install"}},
@@ -100,20 +100,20 @@
 {id:35, answer:"D", q:"The government will have experts ______ the ethical risks of AI.", opts:{A:"assess",B:"assessed",C:"assessing",D:"to assess"}},
 
 {id:36, answer:"C", q:"He talks about television production as though he ______ a professional producer.", opts:{A:"is",B:"was",C:"were",D:"has been"}},
-{id:37, answer:"A", q:"He gives advice about journalism as though he ______ many years of experience.", opts:{A:"had",B:"has",C:"having",D:"has had"}},
-{id:38, answer:"A", q:"The blogger talks as if he ______ the CEO personally, but he has never met him.", opts:{A:"knows",B:"knew",C:"known",D:"knowing"}},
+{id:37, answer:"B", q:"He gives advice about journalism as though he ______ many years of experience.", opts:{A:"had",B:"has",C:"having",D:"has had"}},
+{id:38, answer:"B", q:"The blogger talks as if he ______ the CEO personally, but he has never met him.", opts:{A:"knows",B:"knew",C:"known",D:"knowing"}},
 {id:39, answer:"B", q:"The news report was ______ shocking that millions of viewers shared it on social media immediately.", opts:{A:"such",B:"so",C:"very",D:"too"}},
-{id:40, answer:"D", q:"The journalist gave ______ detailed explanation that the audience understood the issue clearly.", opts:{A:"so",B:"such",C:"such a",D:"so a"}},
+{id:40, answer:"C", q:"The journalist gave ______ detailed explanation that the audience understood the issue clearly.", opts:{A:"so",B:"such",C:"such a",D:"so a"}},
 
 {id:41, answer:"D", q:"The television program was ______ popular that it attracted viewers from all over the country.", opts:{A:"such",B:"very",C:"such a",D:"so"}},
-{id:42, answer:"C", q:"It was ______ influential documentary that it changed many people’s opinions.", opts:{A:"so",B:"such",C:"such an",D:"so an"}},
+{id:42, answer:"B", q:"It was ______ influential documentary that it changed many people’s opinions.", opts:{A:"so",B:"such",C:"such an",D:"so an"}},
 {id:43, answer:"B", q:"The online article contained ______ misleading information that many readers believed it.", opts:{A:"so",B:"such",C:"such a",D:"so a"}},
-{id:44, answer:"D", q:"If people continue cutting down forests, many animals ______ their natural habitats.", opts:{A:"will lose",B:"lose",C:"lost",D:"would lose"}},
-{id:45, answer:"A", q:"If we reduce greenhouse gas emissions, global temperatures ______ more slowly.", opts:{A:"rise",B:"would rise",C:"rose",D:"will rise"}},
+{id:44, answer:"A", q:"If people continue cutting down forests, many animals ______ their natural habitats.", opts:{A:"will lose",B:"lose",C:"lost",D:"would lose"}},
+{id:45, answer:"D", q:"If we reduce greenhouse gas emissions, global temperatures ______ more slowly.", opts:{A:"rise",B:"would rise",C:"rose",D:"will rise"}},
 
 {id:46, answer:"C", q:"Unless stricter laws are enforced, illegal hunting ______ significantly.", opts:{A:"decreases",B:"will decrease",C:"won’t decrease",D:"would decrease"}},
-{id:47, answer:"B", q:"She takes an umbrella with her ______ it rains on the way home.", opts:{A:"unless",B:"if",C:"provided that",D:"in case"}},
-{id:48, answer:"D", q:"Marine ecosystems are often ______ fragile than forest ecosystems due to pollution.", opts:{A:"more",B:"most",C:"as",D:"very"}},
+{id:47, answer:"D", q:"She takes an umbrella with her ______ it rains on the way home.", opts:{A:"unless",B:"if",C:"provided that",D:"in case"}},
+{id:48, answer:"A", q:"Marine ecosystems are often ______ fragile than forest ecosystems due to pollution.", opts:{A:"more",B:"most",C:"as",D:"very"}},
 {id:49, answer:"D", q:"Air pollution in urban areas is becoming ______ serious than it was a decade ago.", opts:{A:"so",B:"most",C:"very",D:"more"}},
 {id:50, answer:"C", q:"Noise pollution in the countryside is not ______ that in the city.", opts:{A:"serious",B:"more serious",C:"as serious as",D:"most serious"}}
 ];
