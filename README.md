@@ -498,7 +498,40 @@ const questionsData = [
     D: "Chọn nghề ngẫu nhiên"
   },
   answer: "A"
-}
+},
+ {
+    id: 41,
+    q: "Việc sửa chữa vào bảo trì ở mức độ thành thạo được đào tạo nhiều ở bậc học nào sau đây:",
+    opts: {
+      A: "Cao học",
+      B: "Đại học",
+      C: "Cao đẳng",
+      D: "Trung cấp nghề"
+    },
+    answer: "D"
+  },
+  {
+    id: 42,
+    q: "Máy tính An bị hỏng ổ đĩa cứng cần khắc phục là công việc liên quan đến lĩnh vực nào?",
+    opts: {
+      A: "Phần cứng",
+      B: "Phần mềm",
+      C: "Hỗ trợ người dùng",
+      D: "Hệ điều hành"
+    },
+    answer: "A"
+  },
+  {
+    id: 43,
+    q: "Một doanh nghiệp muốn xây dựng hệ thống lưu trữ dữ liệu an toàn và hiệu quả. Họ nên thuê chuyên gia nào?",
+    opts: {
+      A: "Bảo mật hệ thống thông tin",
+      B: "Lập trình viên game",
+      C: "Nhà thiết kế đồ họa",
+      D: "Chuyên gia SEO"
+    },
+    answer: "A"
+  }
 ];
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
