@@ -61,476 +61,273 @@
 const questionsData = [
   {
     id: 1,
-    q: "Router là còn được gọi là gì trong các đáp án sau đây?",
-    opts: {
-      A: "Bộ chuyển mạch.",
-      B: "Bộ thu phát không dây.",
-      C: "Bộ định tuyến.",
-      D: "Bộ chia tín hiệu."
-    },
-    answer: "C"
-  },
-  {
-    id: 2,
-    q: "Trên mỗi router, cổng để kết nối với các router khác được gọi là cổng nào trong các đáp án sau?",
-    opts: {
-      A: "Cổng WAP.",
-      B: "Cổng WAN.",
-      C: "Cổng LAN.",
-      D: "Cổng AP."
-    },
-    answer: "B"
-  },
-  {
-    id: 3,
-    q: "Loại modem nào sau đây cho phép nối hai máy tính qua hệ thống chuyển mạch của mạng điện thoại công cộng?",
-    opts: {
-      A: "Modem quay số.",
-      B: "Modem GSM 3G, 4G, 5G,…",
-      C: "Modem ADSL.",
-      D: "Modem quang."
-    },
+    q: "Many scientists are excited because modern robots can ______ human emotions through facial recognition systems.",
+    opts: { A: "understand", B: "repair", C: "arrange", D: "interrupt" },
     answer: "A"
   },
   {
-    id: 4,
-    q: "Khi kết nối hai máy tính (có thể cách xa hàng nghìn kilômét) qua Internet, người ta sử dụng thiết bị nào sau đây để kết nối các LAN với nhau?",
-    opts: {
-      A: "Hub.",
-      B: "Wireless Access Point.",
-      C: "Switch.",
-      D: "Router."
-    },
+    id: 2,
+    q: "Online platforms, which are becoming more popular nowadays, ______ learning for students who live in remote or mountainous areas.",
+    opts: { A: "prevent", B: "limit", C: "delay", D: "support" },
     answer: "D"
   },
   {
-    id: 5,
-    q: "Thiết bị nào sau đây đóng vai trò trung tâm trong một mạng LAN có dây?",
-    opts: {
-      A: "Router",
-      B: "Switch",
-      C: "Modem",
-      D: "Access Point"
-    },
+    id: 3,
+    q: "Artificial intelligence can help doctors ______ diseases at an early stage, improving patients’ chances of recovery significantly.",
+    opts: { A: "create", B: "detect", C: "destroy", D: "avoid" },
     answer: "B"
+  },
+  {
+    id: 4,
+    q: "Some people worry about the ______ of AI on employment, especially when robots replace human workers in repetitive tasks.",
+    opts: { A: "exploration", B: "feedback", C: "impact", D: "appearance" },
+    answer: "C"
+  },
+  {
+    id: 5,
+    q: "Spending too much time on social media can cause serious ______ and reduce study effectiveness.",
+    opts: { A: "distraction", B: "determination", C: "opportunity", D: "intelligence" },
+    answer: "A"
   },
   {
     id: 6,
-    q: "Switch khác với Hub khác nhau ở điểm nào sau đây?",
-    opts: {
-      A: "Switch chỉ kết nối hai máy tính, còn Hub kết nối nhiều máy tính",
-      B: "Switch thông minh hơn, chỉ gửi dữ liệu đến thiết bị cần nhận",
-      C: "Hub có thể kết nối Internet, còn Switch không thể",
-      D: "Hub hoạt động ở tầng mạng, còn Switch hoạt động ở tầng ứng dụng"
-    },
-    answer: "B"
+    q: "AI software can process complex data ______, which allows companies to make decisions more quickly and accurately.",
+    opts: { A: "carelessly", B: "slowly", C: "badly", D: "efficiently" },
+    answer: "D"
   },
   {
     id: 7,
-    q: "Thiết bị nào sau đây có nhiệm vụ khuếch đại và mở rộng phạm vi tín hiệu mạng?",
-    opts: {
-      A: "Repeater",
-      B: "Router",
-      C: "Switch",
-      D: "Modem"
-    },
+    q: "Many companies use social media platforms to ______ their products effectively and reach a wider audience worldwide.",
+    opts: { A: "promote", B: "confuse", C: "struggle", D: "assume" },
     answer: "A"
   },
   {
     id: 8,
-    q: "Đáp án nào sau đây KHÔNG phải là thông số kĩ thuật của một router?",
-    opts: {
-      A: "Tốc độ truyền dữ liệu qua các cổng",
-      B: "Số lượng truy cập đồng thời",
-      C: "Loại cáp được sử dụng",
-      D: "Số cổng kết nối"
-    },
+    q: "Advertisements on digital media are often more ______ than traditional posters because they can attract more viewers.",
+    opts: { A: "informative", B: "persuasive", C: "effective", D: "creative" },
     answer: "C"
   },
   {
     id: 9,
-    q: "Wireless Access Point (WAP) có chức năng nào sau đây?",
-    opts: {
-      A: "Chuyển đổi tín hiệu từ tín hiệu số sang tín hiệu tương tự và ngược lại, thường dùng khi kết nối LAN với Internet.",
-      B: "Dùng để kết nối các máy tính trong cùng LAN trực tiếp qua cáp mạng.",
-      C: "Dùng để kết nối các thiết bị đầu cuối qua sóng Wi-Fi giúp giảm chi phí thiết lập LAN hoặc kết nối với một LAN để mở rộng phạm vi làm việc.",
-      D: "Dùng để dẫn đường cho dữ liệu khi kết nối trên mạng diện rộng như Internet."
-    },
-    answer: "C"
+    q: "The new application is very ______ for users who want to save time and manage their work efficiently.",
+    opts: { A: "inconvenient", B: "convenient", C: "harmful", D: "tiring" },
+    answer: "B"
   },
   {
     id: 10,
-    q: "Khi kết nối máy tính với các thiết bị mạng, cần cắm một đầu giắc của cáp vào cổng nào sau đây của máy tính?",
-    opts: {
-      A: "RJ45.",
-      B: "VJ45.",
-      C: "CJ45.",
-      D: "PJ45."
-    },
+    q: "Journalists must always ______ information carefully before publishing articles to ensure accuracy and credibility.",
+    opts: { A: "fact-check", B: "broadcast", C: "collect", D: "report" },
     answer: "A"
   },
   {
     id: 11,
-    q: "Hiện nay có những loại địa chỉ IP nào sau đây?",
-    opts: {
-      A: "IPv4 và IPv6.",
-      B: "IPv2 và IPv4.",
-      C: "IPv4 và IPv5.",
-      D: "IPv1 và IPv3."
-    },
-    answer: "A"
-  },
-  {
-    id: 12,
-    q: "Việc truyền dữ liệu trong mạng cục bộ sẽ căn cứ vào địa chỉ nào trong các địa chỉ sau?",
-    opts: {
-      A: "Địa chỉ IP.",
-      B: "Địa chỉ MAC.",
-      C: "Địa chỉ LAN.",
-      D: "Địa chỉ Server."
-    },
-    answer: "B"
-  },
-  {
-    id: 13,
-    q: "Giao thức quy định cách biểu diễn (mã hoá) các trang web là giao thức nào sau đây?",
-    opts: {
-      A: "SNMP.",
-      B: "DNS.",
-      C: "HTTP.",
-      D: "DHCP."
-    },
-    answer: "C"
-  },
-  {
-    id: 14,
-    q: "Địa chỉ IP 11001011 10100010 00101001 11111110 dưới dạng thập phân là đáp án nào sau đây?",
-    opts: {
-      A: "203.162.41.254.",
-      B: "230.178.52.166.",
-      C: "203.126.71.235.",
-      D: "235.197.80.255."
-    },
-    answer: "A"
-  },
-  {
-    id: 15,
-    q: "Thiết bị nào sau đây có chức năng chính là để kết nối không dây trong một mạng cục bộ?",
-    opts: {
-      A: "Router.",
-      B: "Switch.",
-      C: "Hub.",
-      D: "Access Point."
-    },
+    q: "Many organizations use social media to ______ people to take part in volunteer activities and support the community.",
+    opts: { A: "refuse", B: "avoid", C: "ignore", D: "encourage" },
     answer: "D"
   },
   {
-  id: 16,
-  q: "Phương tiện truyền dẫn nào sau đây sử dụng tín hiệu ánh sáng để truyền dữ liệu?",
-  opts: {
-    A: "Cáp xoắn đôi",
-    B: "Cáp đồng trục",
-    C: "Cáp quang",
-    D: "Bluetooth"
+    id: 12,
+    q: "News reports are now ______ to most people thanks to smartphones and other electronic devices.",
+    opts: { A: "accessible", B: "reachable", C: "limited", D: "convenient" },
+    answer: "A"
   },
-  answer: "C"
-},
-{
-  id: 17,
-  q: "Loại cáp nào sau đây thường được sử dụng phổ biến trong mạng LAN có dây?",
-  opts: {
-    A: "Cáp quang",
-    B: "Cáp đồng trục",
-    C: "Cáp xoắn đôi",
-    D: "Bluetooth"
+  {
+    id: 13,
+    q: "The authorities are working hard to ______ endangered species and prevent them from becoming extinct in the future.",
+    opts: { A: "bury", B: "conserve", C: "prohibit", D: "vanish" },
+    answer: "B"
   },
-  answer: "C"
-},
-{
-  id: 18,
-  q: "Bluetooth là công nghệ kết nối không dây có đặc điểm nào sau đây?",
-  opts: {
-    A: "Tốc độ truyền dữ liệu cao hơn cáp quang",
-    B: "Phạm vi truyền dữ liệu ngắn, khoảng vài mét",
-    C: "Dùng để kết nối mạng LAN tốc độ cao",
-    D: "Yêu cầu sử dụng cáp để truyền tín hiệu"
+  {
+    id: 14,
+    q: "Deforestation is one of the main causes of the rapid ______ of wildlife populations in tropical rainforests.",
+    opts: { A: "growth", B: "stability", C: "increase", D: "decrease" },
+    answer: "D"
   },
-  answer: "B"
-},
-{
-  id: 19,
-  q: "Đáp án nào sau đây KHÔNG thể dùng kết nối Bluetooth?",
-  opts: {
-    A: "Điện thoại di động với loa",
-    B: "Điện thoại di động với điện thoại di động",
-    C: "Máy in với loa",
-    D: "Máy tính với máy in"
+  {
+    id: 15,
+    q: "Many endangered animals in Canada have been protected within wildlife ____ for a long time.",
+    opts: { A: "reserves", B: "disasters", C: "habitats", D: "stations" },
+    answer: "A"
   },
-  answer: "C"
-},
-{
-  id: 20,
-  q: "LAN là loại mạng nào sau đây?",
-  opts: {
-    A: "Mạng cục bộ.",
-    B: "Mạng diện rộng.",
-    C: "Mạng toàn cầu.",
-    D: "Mạng thành phố."
+  {
+    id: 16,
+    q: "Marine biologists are trying to protect coral ______ because they are important for biodiversity and ecosystem balance.",
+    opts: { A: "fish", B: "animals", C: "reefs", D: "plants" },
+    answer: "C"
   },
-  answer: "A"
-},
-{
-  id: 21,
-  q: "Modem có chức năng gì nào sau đây trong mạng máy tính?",
-  opts: {
-    A: "Chuyển đổi tín hiệu số thành tín hiệu tương tự và ngược lại.",
-    B: "Kết nối các máy tính trong mạng nội bộ.",
-    C: "Điều khiển truy cập mạng.",
-    D: "Lưu trữ dữ liệu."
+  {
+    id: 17,
+    q: "Many rare species are now considered ______ because their natural habitats are being destroyed by human activities.",
+    opts: { A: "vulnerable", B: "safe", C: "common", D: "harmful" },
+    answer: "A"
   },
-  answer: "A"
-},
-{
-  id: 22,
-  q: "Khẳng định nào sau đây ĐÚNG khi nói về giao thức mạng?",
-  opts: {
-    A: "Một ngôn ngữ lập trình.",
-    B: "Một loại phần mềm diệt virus.",
-    C: "Bộ quy tắc và tiêu chuẩn dùng để truyền tải dữ liệu qua mạng.",
-    D: "Một loại phần cứng mạng."
+  {
+    id: 18,
+    q: "He is ______ to video games, which negatively affects his health as well as his academic performance at school.",
+    opts: { A: "creative", B: "flexible", C: "relevant", D: "addicted" },
+    answer: "D"
   },
-  answer: "C"
-},
-{
-  id: 23,
-  q: "Giao thức nào sau đây được sử dụng để bảo mật các giao dịch trên web?",
-  opts: {
-    A: "HTTP.",
-    B: "FTP.",
-    C: "HTTPS.",
-    D: "SMTP."
+  {
+    id: 19,
+    q: "School-leavers should carefully ______ their future careers based on their interests, skills, and long-term goals.",
+    opts: { A: "employ", B: "abandon", C: "pursue", D: "determine" },
+    answer: "D"
   },
-  answer: "C"
-},
-{
-  id: 24,
-  q: "Phát biểu nào sau đây ĐÚNG khi nói về mạng máy tính?",
-  opts: {
-    A: "Giao thức TCP quy định cách thiết lập địa chỉ cho các thiết bị tham gia mạng và cách dẫn đường các gói dữ liệu theo địa chỉ từ thiết bị gửi đến thiết bị nhận.",
-    B: "Phương pháp định tuyến tĩnh cho phép có thể thay đổi cổng gửi đi tuỳ thuộc vào điều kiện cụ thể.",
-    C: "Các gói tin gửi đi trên Internet luôn phải được gán địa chỉ IP của máy tính gửi và máy tính nhận.",
-    D: "Giao thức HTTP (Hypertext Transfer Protocol) cho phép dùng hệ thống tên bằng chữ thay thế cho địa chỉ IP vốn khó nhớ."
+  {
+    id: 20,
+    q: "In the modern workplace, employees must develop strong ______ such as communication and teamwork to succeed.",
+    opts: { A: "regulations", B: "soft skills", C: "specialties", D: "beliefs" },
+    answer: "B"
   },
-  answer: "C"
-},
-{
-  id: 25,
-  q: "Để chia sẻ một thư mục trên mạng nội bộ, ta cần thực hiện thao tác nào sau đây trong Windows?",
-  opts: {
-    A: "Nhấp chuột phải vào thư mục, chọn “Properties”, sau đó chọn tab “Sharing”.",
-    B: "Nhấp chuột phải vào thư mục, chọn “Delete”.",
-    C: "Mở thư mục bằng Windows Media Player.",
-    D: "Nhấp chuột phải vào thư mục, chọn “Cut”."
+  {
+    id: 21,
+    q: "Many young people want to become content creators because they are ______ about sharing ideas online.",
+    opts: { A: "passionate", B: "obsolete", C: "illegal", D: "historical" },
+    answer: "A"
   },
-  answer: "A"
-},
-{
-  id: 26,
-  q: "Đâu là mục đích chính của dịch vụ sửa chữa và bảo trì máy tính trong các phương án sau:",
-  opts: {
-    A: "Làm cho máy tính chạy nhanh hơn bình thường",
-    B: "Duy trì sự ổn định của máy tính cũng như các thiết bị có liên quan tới máy tính",
-    C: "Chỉ để nâng cấp phần mềm trên máy tính",
-    D: "Chỉ thay thế linh kiện phần cứng khi hỏng hóc"
+  {
+    id: 22,
+    q: "Employers usually ______ candidates who are hard-working, confident, and willing to learn new things.",
+    opts: { A: "reject", B: "dismiss", C: "resign", D: "hire" },
+    answer: "D"
   },
-  answer: "B"
-},
-{
-  id: 27,
-  q: "Với người làm nghề sửa chữa và bảo trì máy tính thì những việc nào sau đâu KHÔNG liên quan đến phần cứng:",
-  opts: {
-    A: "Kiểm soát và duy trì hoạt động của máy tính",
-    B: "Đảm bảo kết nối máy tính vào mạng",
-    C: "Lắp đặt, sửa chữa hoặc thay thế các linh kiện máy tính bị hỏng",
-    D: "Xác định và khắc phục lỗi phần cứng khi có sự cố xảy ra"
+  {
+    id: 23,
+    q: "The company plans to ______ more staff this year because its business has expanded rapidly and requires additional human resources.",
+    opts: { A: "employ", B: "recruit", C: "widen", D: "train" },
+    answer: "B"
   },
-  answer: "B"
-},
-{
-  id: 28,
-  q: "Với người làm nghề sửa chữa và bảo trì máy tính thì những việc nào sau đâu KHÔNG liên quan đến phần mềm:",
-  opts: {
-    A: "Cài đặt hoặc cập nhật phần điều khiển thiết bị ngoại vi",
-    B: "Đảm bảo kết nối máy tính vào mạng",
-    C: "Cập nhật các phiên bản mới của phần mềm để đảm bảo tính an toàn và hiệu quả",
-    D: "Phát hiện nguyên nhân hỏng thiết bị để biết liệu có thể sửa, thay thế hay cấu hình lại"
+  {
+    id: 24,
+    q: "Although the job is quite ______ and sometimes makes employees feel under pressure, it provides valuable experience for their future careers.",
+    opts: { A: "stressful", B: "flexible", C: "convenient", D: "academic" },
+    answer: "A"
   },
-  answer: "D"
-},
-{
-  id: 29,
-  q: "Với người làm nghề sửa chữa và bảo trì máy tính thì việc theo dõi, cập nhật để có hiểu biết về công nghệ mới là kĩ năng nào trong các kĩ năng sau:",
-  opts: {
-    A: "Kĩ năng học hỏi, cập nhật kiến thức",
-    B: "Kĩ năng giải quyết vấn đề",
-    C: "Kĩ năng giao tiếp",
-    D: "Kĩ năng quản lí thười gian"
+  {
+    id: 25,
+    q: "Before attending the important job interview next week, he needs to ______ his English speaking skills to communicate more confidently.",
+    opts: { A: "give up", B: "take off", C: "brush up", D: "turn down" },
+    answer: "C"
   },
-  answer: "A"
-},
-{
-  id: 30,
-  q: "Nguyên lí hoạt động của máy tính và thiết bị công nghệ thông tin được đào tạo nhiều ở bậc học nào sau đây:",
-  opts: {
-    A: "Cao học",
-    B: "Đại học",
-    C: "Cao đẳng",
-    D: "Trung cấp nghề"
+  {
+    id: 26,
+    q: "In order to achieve good academic results, students should ______ on their studies and avoid being distracted by social media or entertainment activities.",
+    opts: { A: "connect", B: "classify", C: "subscribe", D: "concentrate" },
+    answer: "D"
   },
-  answer: "B"
-},
-{
-  id: 31,
-  q: "Nhóm nghề quản trị trong ngành Công nghệ thông tin KHÔNG liên quan đến công việc nào?",
-  opts: {
-    A: "Quản trị mạng",
-    B: "Bảo mật hệ thống thông tin",
-    C: "Quản trị và bảo trì hệ thống",
-    D: "Phát triển phần mềm"
+  {
+    id: 27,
+    q: "She is a ______ learner, which means she can study independently without being forced or guided by teachers all the time.",
+    opts: { A: "self-confident", B: "self-reliant", C: "self-motivated", D: "dependent" },
+    answer: "C"
   },
-  answer: "D"
-},
-{
-  id: 32,
-  q: "Vai trò của quản trị hệ thống mạng trong doanh nghiệp là gì?",
-  opts: {
-    A: "Chỉ cài đặt phần mềm văn phòng",
-    B: "Đảm bảo hệ thống mạng hoạt động ổn định và an toàn",
-    C: "Viết bài quảng cáo trên website",
-    D: "Sửa chữa máy in và máy photocopy"
+  {
+    id: 28,
+    q: "Online learning platforms allow students to study ______ without attending face-to-face classes.",
+    opts: { A: "remotely", B: "independently", C: "flexibly", D: "regularly" },
+    answer: "A"
   },
-  answer: "B"
-},
-{
-  id: 33,
-  q: "Việc nào sau đây KHÔNG thuộc nhóm nghề quản trị trong ngành công nghệ thông tin?",
-  opts: {
-    A: "Quản trị hệ thống mạng",
-    B: "Quản trị cơ sở dữ liệu",
-    C: "Phát triển trò chơi điện tử",
-    D: "An toàn thông tin"
+  {
+    id: 29,
+    q: "A positive learning ______ plays an important role in helping students overcome difficulties in their studies.",
+    opts: { A: "attitude", B: "environment", C: "interest", D: "characteristic" },
+    answer: "A"
   },
-  answer: "C"
-},
-{
-  id: 34,
-  q: "Kỹ năng quan trọng đối với một quản trị viên hệ thống mạng là gì?",
-  opts: {
-    A: "Chỉ cần biết sử dụng máy tính cơ bản",
-    B: "Hiểu biết về hệ thống mạng, bảo mật và khả năng xử lý sự cố",
-    C: "Chỉ cần kỹ năng giao tiếp",
-    D: "Thiết kế đồ họa chuyên nghiệp"
+  {
+    id: 30,
+    q: "Many school-leavers are encouraged to pursue ______ education to gain practical skills for future careers.",
+    opts: { A: "traditional", B: "potential", C: "proposal", D: "vocational" },
+    answer: "D"
   },
-  answer: "B"
-},
-{
-  id: 35,
-  q: "Những thách thức chính trong công việc của một quản trị viên an toàn thông tin là gì?",
-  opts: {
-    A: "Cập nhật liên tục các mối đe dọa an ninh mạng và bảo vệ dữ liệu",
-    B: "Lập trình giao diện web",
-    C: "Chỉ cần kiểm tra tốc độ mạng",
-    D: "Viết bài hướng dẫn sử dụng phần mềm"
+  {
+    id: 31,
+    q: "The ______ of digital media has changed the way the press distributes information to the public worldwide.",
+    opts: { A: "develop", B: "developing", C: "development", D: "developed" },
+    answer: "C"
   },
-  answer: "A"
-},
-{
-  id: 36,
-  q: "Mục đích của hội thảo hướng nghiệp là gì?",
-  opts: {
-    A: "Giúp học sinh chọn trường đại học phù hợp",
-    B: "Định hướng nghề nghiệp và cung cấp thông tin về các ngành nghề",
-    C: "Giới thiệu các phần mềm mới trong ngành IT",
-    D: "Hướng dẫn học sinh cách lập trình"
+  {
+    id: 32,
+    q: "Journalists must write articles ______ to maintain their reputation as reliable and professional reporters.",
+    opts: { A: "polite", B: "politely", C: "politeness", D: "impolite" },
+    answer: "B"
   },
-  answer: "B"
-},
-{
-  id: 37,
-  q: "Hội thảo hướng nghiệp có thể tổ chức dưới hình thức nào?",
-  opts: {
-    A: "Trực tiếp tại trường học",
-    B: "Hội thảo trực tuyến",
-    C: "Cả trực tiếp và trực tuyến",
-    D: "Chỉ thông qua tài liệu in ấn"
+  {
+    id: 33,
+    q: "Scientists must carefully ______ the data before making decisions about wildlife protection strategies.",
+    opts: { A: "evaluation", B: "evaluate", C: "evaluative", D: "evaluated" },
+    answer: "D"
   },
-  answer: "C"
-},
-{
-  id: 38,
-  q: "Ngành nghề nào dưới đây thuộc lĩnh vực công nghệ thông tin?",
-  opts: {
-    A: "Kỹ sư xây dựng",
-    B: "Bác sĩ",
-    C: "Phát triển phần mềm",
-    D: "Luật sư"
+  {
+    id: 34,
+    q: "He is a very ______ worker who always completes tasks on time and works well with others.",
+    opts: { A: "confident", B: "confidence", C: "confidently", D: "confide" },
+    answer: "A"
   },
-  answer: "C"
-},
-{
-  id: 39,
-  q: "Ngành công nghệ thông tin có xu hướng phát triển như thế nào trong tương lai?",
-  opts: {
-    A: "Giảm nhu cầu do tự động hóa",
-    B: "Ổn định và không thay đổi nhiều",
-    C: "Tăng mạnh do nhu cầu số hóa và AI",
-    D: "Chỉ còn phát triển ở các nước lớn"
+  {
+    id: 35,
+    q: "His strong ______ helped him overcome many obstacles and achieve success in his academic journey.",
+    opts: { A: "determine", B: "determination", C: "determined", D: "determinately" },
+    answer: "B"
   },
-  answer: "C"
-},
-{
-  id: 40,
-  q: "Một trong những yếu tố giúp học sinh chọn ngành nghề phù hợp là gì?",
-  opts: {
-    A: "Đánh giá khả năng và sở thích cá nhân",
-    B: "Chọn nghề theo bạn bè",
-    C: "Chọn nghề dựa trên phim ảnh",
-    D: "Chọn nghề ngẫu nhiên"
+  {
+    id: 36,
+    q: "The company had a technician ______ the robot’s software after it made several serious mistakes during operation.",
+    opts: { A: "update", B: "updated", C: "updating", D: "to update" },
+    answer: "A"
   },
-  answer: "A"
-},
- {
+  {
+    id: 37,
+    q: "The manager got the AI system ______ by experts to ensure accurate performance in complex working environments.",
+    opts: { A: "check", B: "checking", C: "checked", D: "to check" },
+    answer: "C"
+  },
+  {
+    id: 38,
+    q: "AI-based robots can do household chores ______ they were humans.",
+    opts: { A: "because", B: "as if", C: "although", D: "than" },
+    answer: "B"
+  },
+  {
+    id: 39,
+    q: "Social media spreads information much faster ______ traditional forms of mass media like newspapers and television.",
+    opts: { A: "similar to", B: "compared to", C: "more than", D: "than" },
+    answer: "D"
+  },
+  {
+    id: 40,
+    q: "If people ______ cutting down forests, many animals will lose their natural habitats and may become extinct.",
+    opts: { A: "continue", B: "continued", C: "will continue", D: "continuing" },
+    answer: "A"
+  },
+  {
     id: 41,
-    q: "Việc sửa chữa vào bảo trì ở mức độ thành thạo được đào tạo nhiều ở bậc học nào sau đây:",
-    opts: {
-      A: "Cao học",
-      B: "Đại học",
-      C: "Cao đẳng",
-      D: "Trung cấp nghề"
-    },
+    q: "Many endangered species will disappear ______ humans take immediate action to protect their habitats and ecosystems.",
+    opts: { A: "if", B: "in case", C: "or else", D: "unless" },
     answer: "D"
   },
   {
     id: 42,
-    q: "Máy tính An bị hỏng ổ đĩa cứng cần khắc phục là công việc liên quan đến lĩnh vực nào?",
-    opts: {
-      A: "Phần cứng",
-      B: "Phần mềm",
-      C: "Hỗ trợ người dùng",
-      D: "Hệ điều hành"
-    },
+    q: "Students should ______ online resources such as e-books and educational websites to improve their learning efficiency.",
+    opts: { A: "make use of", B: "run out of", C: "look up to", D: "get along with" },
     answer: "A"
   },
   {
     id: 43,
-    q: "Một doanh nghiệp muốn xây dựng hệ thống lưu trữ dữ liệu an toàn và hiệu quả. Họ nên thuê chuyên gia nào?",
-    opts: {
-      A: "Bảo mật hệ thống thông tin",
-      B: "Lập trình viên game",
-      C: "Nhà thiết kế đồ họa",
-      D: "Chuyên gia SEO"
-    },
+    q: "People are encouraged to ______ plastic use to protect the environment and reduce pollution.",
+    opts: { A: "cut down on", B: "come up with", C: "take part in", D: "look forward to" },
     answer: "A"
+  },
+  {
+    id: 44,
+    q: "The instructor told the students ______ regularly if they wanted to improve their academic performance.",
+    opts: { A: "study", B: "to study", C: "studying", D: "studied" },
+    answer: "B"
+  },
+  {
+    id: 45,
+    q: "My teacher ______ me to join more extracurricular activities to develop soft skills and confidence.",
+    opts: { A: "decided", B: "promised", C: "offered", D: "advised" },
+    answer: "D"
   }
 ];
   function shuffleArray(array) {
