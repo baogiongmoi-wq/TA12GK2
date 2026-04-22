@@ -61,273 +61,126 @@
 const questionsData = [
   {
     id: 1,
-    q: "Many scientists are excited because modern robots can ______ human emotions through facial recognition systems.",
-    opts: { A: "understand", B: "repair", C: "arrange", D: "interrupt" },
-    answer: "A"
+    q: "Khi điện phân NaCl nóng chảy (điện cực trơ), ở cathode xảy ra?",
+    opts: { A: "Sự khử ion Cl-", B: "Sự oxi hóa ion Cl-", C: "Sự oxi hóa ion Na+", D: "Sự khử ion Na+" },
+    answer: "D"
   },
   {
     id: 2,
-    q: "Online platforms, which are becoming more popular nowadays, ______ learning for students who live in remote or mountainous areas.",
-    opts: { A: "prevent", B: "limit", C: "delay", D: "support" },
-    answer: "D"
-  },
-  {
-    id: 3,
-    q: "Artificial intelligence can help doctors ______ diseases at an early stage, improving patients’ chances of recovery significantly.",
-    opts: { A: "create", B: "detect", C: "destroy", D: "avoid" },
-    answer: "B"
-  },
-  {
-    id: 4,
-    q: "Some people worry about the ______ of AI on employment, especially when robots replace human workers in repetitive tasks.",
-    opts: { A: "exploration", B: "feedback", C: "impact", D: "appearance" },
+    q: "Dãy nào sau đây sắp xếp các kim loại nhóm IA theo mức độ phản ứng với nước tăng dần?",
+    opts: { A: "K, Na, Li", B: "Na, K, Li", C: "Li, Na, K", D: "K, Li, Na" },
     answer: "C"
   },
   {
-    id: 5,
-    q: "Spending too much time on social media can cause serious ______ and reduce study effectiveness.",
-    opts: { A: "distraction", B: "determination", C: "opportunity", D: "intelligence" },
+    id: 3,
+    q: "Để bảo quản kim loại kiềm lâu dài, chúng thường được ngâm trong",
+    opts: { A: "dầu hoả", B: "nước máy", C: "ethyl alcohol", D: "giấm ăn" },
     answer: "A"
   },
   {
+    id: 4,
+    q: "Dãy nào sau đây sắp xếp các dung dịch (cùng nồng độ 0,1 M) theo thứ tự pH giảm dần?",
+    opts: { A: "LiOH, Na2CO3, KCl", B: "Na2CO3, KCl, LiOH", C: "KCl, Na2CO3, LiOH", D: "Na2CO3, LiOH, KCl" },
+    answer: "A"
+  },
+  {
+    id: 5,
+    q: "Cấu hình electron của Fe2+ là",
+    opts: { A: "[Ar]3d6 4s2", B: "[Ar]3d5", C: "[Ar]3d6", D: "[Ar]3d4 4s1" },
+    answer: "C"
+  },
+  {
     id: 6,
-    q: "AI software can process complex data ______, which allows companies to make decisions more quickly and accurately.",
-    opts: { A: "carelessly", B: "slowly", C: "badly", D: "efficiently" },
-    answer: "D"
+    q: "Số lượng phối tử có trong phức chất [PtCl4(NH3)2] là",
+    opts: { A: "6", B: "2", C: "4", D: "7" },
+    answer: "A"
   },
   {
     id: 7,
-    q: "Many companies use social media platforms to ______ their products effectively and reach a wider audience worldwide.",
-    opts: { A: "promote", B: "confuse", C: "struggle", D: "assume" },
+    q: "Dãy các kim loại đều có thể được điều chế bằng phương pháp điện phân dung dịch muối của chúng là:",
+    opts: { A: "Fe, Cu, Ag", B: "Mg, Zn, Cu", C: "Al, Fe, Cr", D: "Ba, Ag, Au" },
     answer: "A"
   },
   {
     id: 8,
-    q: "Advertisements on digital media are often more ______ than traditional posters because they can attract more viewers.",
-    opts: { A: "informative", B: "persuasive", C: "effective", D: "creative" },
-    answer: "C"
-  },
-  {
-    id: 9,
-    q: "The new application is very ______ for users who want to save time and manage their work efficiently.",
-    opts: { A: "inconvenient", B: "convenient", C: "harmful", D: "tiring" },
+    q: "Phát biểu nào sau đây không đúng?",
+    opts: {
+      A: "Các nguyên tố kim loại chuyển tiếp dãy thứ nhất thuộc khối d",
+      B: "Zn là nguyên tử kim loại chuyển tiếp dãy thứ nhất duy nhất có phân lớp 3d đã điền đầy electron",
+      C: "Nguyên tử của các kim loại chuyển tiếp dãy thứ nhất đều có lớp vỏ bên trong của khí hiếm Ar",
+      D: "Kim loại chuyển tiếp dãy thứ nhất thường tạo hợp chất với nhiều số oxi hoá khác nhau"
+    },
     answer: "B"
   },
   {
+    id: 9,
+    q: "Kim loại nào sau đây điều chế được bằng phương pháp thủy luyện?",
+    opts: { A: "Mg", B: "Ca", C: "Cu", D: "K" },
+    answer: "C"
+  },
+  {
     id: 10,
-    q: "Journalists must always ______ information carefully before publishing articles to ensure accuracy and credibility.",
-    opts: { A: "fact-check", B: "broadcast", C: "collect", D: "report" },
-    answer: "A"
+    q: "Nguyên tử trung tâm của phức chất [PtCl4]2- và [Fe(CO)5] lần lượt là",
+    opts: { A: "Pt4+ và Fe2+", B: "Pt2+ và Fe2+", C: "Cl và CO", D: "Pt2+ và Fe" },
+    answer: "D"
   },
   {
     id: 11,
-    q: "Many organizations use social media to ______ people to take part in volunteer activities and support the community.",
-    opts: { A: "refuse", B: "avoid", C: "ignore", D: "encourage" },
+    q: "Kim loại nào sau đây khi tác dụng với dung dịch HCl và khí Cl2 (t°) cho cùng một loại muối?",
+    opts: { A: "bạc", B: "sắt", C: "đồng", D: "magie" },
     answer: "D"
   },
   {
     id: 12,
-    q: "News reports are now ______ to most people thanks to smartphones and other electronic devices.",
-    opts: { A: "accessible", B: "reachable", C: "limited", D: "convenient" },
-    answer: "A"
-  },
-  {
-    id: 13,
-    q: "The authorities are working hard to ______ endangered species and prevent them from becoming extinct in the future.",
-    opts: { A: "bury", B: "conserve", C: "prohibit", D: "vanish" },
-    answer: "B"
-  },
-  {
-    id: 14,
-    q: "Deforestation is one of the main causes of the rapid ______ of wildlife populations in tropical rainforests.",
-    opts: { A: "growth", B: "stability", C: "increase", D: "decrease" },
+    q: "Nhỏ vài giọt dung dịch phenolphthalein vào dung dịch Na2CO3 thì dung dịch chuyển sang màu",
+    opts: { A: "tím", B: "vàng", C: "xanh", D: "hồng" },
     answer: "D"
   },
   {
+    id: 13,
+    q: "Tổng số proton và electron của ion Mg2+ là",
+    opts: { A: "26", B: "24", C: "22", D: "12" },
+    answer: "C"
+  },
+  {
+    id: 14,
+    q: "Phức chất tạo thành khi thay toàn bộ H2O bằng NH3 trong [Ni(H2O)6]2+ là",
+    opts: {
+      A: "[Ni(NH3)6]2+",
+      B: "[Ni(NH3)2(H2O)4]",
+      C: "[Ni(NH3)(H2O)5]2+",
+      D: "[Ni(NH3)5(H2O)]2+"
+    },
+    answer: "A"
+  },
+  {
     id: 15,
-    q: "Many endangered animals in Canada have been protected within wildlife ____ for a long time.",
-    opts: { A: "reserves", B: "disasters", C: "habitats", D: "stations" },
+    q: "Nước cứng là nước có chứa nhiều ion",
+    opts: { A: "Mg2+ và Ca2+", B: "Na+ và K+", C: "F- và Cl-", D: "SO4^2- và CO3^2-" },
     answer: "A"
   },
   {
     id: 16,
-    q: "Marine biologists are trying to protect coral ______ because they are important for biodiversity and ecosystem balance.",
-    opts: { A: "fish", B: "animals", C: "reefs", D: "plants" },
-    answer: "C"
+    q: "Kim loại nào sau đây có nhiệt độ nóng chảy thấp nhất?",
+    opts: { A: "Li", B: "Cu", C: "Ag", D: "Hg" },
+    answer: "D"
   },
   {
     id: 17,
-    q: "Many rare species are now considered ______ because their natural habitats are being destroyed by human activities.",
-    opts: { A: "vulnerable", B: "safe", C: "common", D: "harmful" },
-    answer: "A"
+    q: "Nguyên tố Ca thuộc nhóm nào?",
+    opts: { A: "IIIA", B: "IA", C: "IVA", D: "IIA" },
+    answer: "D"
   },
   {
     id: 18,
-    q: "He is ______ to video games, which negatively affects his health as well as his academic performance at school.",
-    opts: { A: "creative", B: "flexible", C: "relevant", D: "addicted" },
-    answer: "D"
-  },
-  {
-    id: 19,
-    q: "School-leavers should carefully ______ their future careers based on their interests, skills, and long-term goals.",
-    opts: { A: "employ", B: "abandon", C: "pursue", D: "determine" },
-    answer: "D"
-  },
-  {
-    id: 20,
-    q: "In the modern workplace, employees must develop strong ______ such as communication and teamwork to succeed.",
-    opts: { A: "regulations", B: "soft skills", C: "specialties", D: "beliefs" },
-    answer: "B"
-  },
-  {
-    id: 21,
-    q: "Many young people want to become content creators because they are ______ about sharing ideas online.",
-    opts: { A: "passionate", B: "obsolete", C: "illegal", D: "historical" },
-    answer: "A"
-  },
-  {
-    id: 22,
-    q: "Employers usually ______ candidates who are hard-working, confident, and willing to learn new things.",
-    opts: { A: "reject", B: "dismiss", C: "resign", D: "hire" },
-    answer: "D"
-  },
-  {
-    id: 23,
-    q: "The company plans to ______ more staff this year because its business has expanded rapidly and requires additional human resources.",
-    opts: { A: "employ", B: "recruit", C: "widen", D: "train" },
-    answer: "B"
-  },
-  {
-    id: 24,
-    q: "Although the job is quite ______ and sometimes makes employees feel under pressure, it provides valuable experience for their future careers.",
-    opts: { A: "stressful", B: "flexible", C: "convenient", D: "academic" },
-    answer: "A"
-  },
-  {
-    id: 25,
-    q: "Before attending the important job interview next week, he needs to ______ his English speaking skills to communicate more confidently.",
-    opts: { A: "give up", B: "take off", C: "brush up", D: "turn down" },
+    q: "Phát biểu đúng về các phức chất [PtCl2(NH3)4]2+ và [FeF6]3- là",
+    opts: {
+      A: "Số lượng phối tử lần lượt là 4 và 6",
+      B: "Điện tích lần lượt là +4 và +3",
+      C: "Nguyên tử trung tâm là Pt4+ và Fe3+",
+      D: "Cả hai đều ít tan trong nước"
+    },
     answer: "C"
-  },
-  {
-    id: 26,
-    q: "In order to achieve good academic results, students should ______ on their studies and avoid being distracted by social media or entertainment activities.",
-    opts: { A: "connect", B: "classify", C: "subscribe", D: "concentrate" },
-    answer: "D"
-  },
-  {
-    id: 27,
-    q: "She is a ______ learner, which means she can study independently without being forced or guided by teachers all the time.",
-    opts: { A: "self-confident", B: "self-reliant", C: "self-motivated", D: "dependent" },
-    answer: "C"
-  },
-  {
-    id: 28,
-    q: "Online learning platforms allow students to study ______ without attending face-to-face classes.",
-    opts: { A: "remotely", B: "independently", C: "flexibly", D: "regularly" },
-    answer: "A"
-  },
-  {
-    id: 29,
-    q: "A positive learning ______ plays an important role in helping students overcome difficulties in their studies.",
-    opts: { A: "attitude", B: "environment", C: "interest", D: "characteristic" },
-    answer: "A"
-  },
-  {
-    id: 30,
-    q: "Many school-leavers are encouraged to pursue ______ education to gain practical skills for future careers.",
-    opts: { A: "traditional", B: "potential", C: "proposal", D: "vocational" },
-    answer: "D"
-  },
-  {
-    id: 31,
-    q: "The ______ of digital media has changed the way the press distributes information to the public worldwide.",
-    opts: { A: "develop", B: "developing", C: "development", D: "developed" },
-    answer: "C"
-  },
-  {
-    id: 32,
-    q: "Journalists must write articles ______ to maintain their reputation as reliable and professional reporters.",
-    opts: { A: "polite", B: "politely", C: "politeness", D: "impolite" },
-    answer: "B"
-  },
-  {
-    id: 33,
-    q: "Scientists must carefully ______ the data before making decisions about wildlife protection strategies.",
-    opts: { A: "evaluation", B: "evaluate", C: "evaluative", D: "evaluated" },
-    answer: "D"
-  },
-  {
-    id: 34,
-    q: "He is a very ______ worker who always completes tasks on time and works well with others.",
-    opts: { A: "confident", B: "confidence", C: "confidently", D: "confide" },
-    answer: "A"
-  },
-  {
-    id: 35,
-    q: "His strong ______ helped him overcome many obstacles and achieve success in his academic journey.",
-    opts: { A: "determine", B: "determination", C: "determined", D: "determinately" },
-    answer: "B"
-  },
-  {
-    id: 36,
-    q: "The company had a technician ______ the robot’s software after it made several serious mistakes during operation.",
-    opts: { A: "update", B: "updated", C: "updating", D: "to update" },
-    answer: "A"
-  },
-  {
-    id: 37,
-    q: "The manager got the AI system ______ by experts to ensure accurate performance in complex working environments.",
-    opts: { A: "check", B: "checking", C: "checked", D: "to check" },
-    answer: "C"
-  },
-  {
-    id: 38,
-    q: "AI-based robots can do household chores ______ they were humans.",
-    opts: { A: "because", B: "as if", C: "although", D: "than" },
-    answer: "B"
-  },
-  {
-    id: 39,
-    q: "Social media spreads information much faster ______ traditional forms of mass media like newspapers and television.",
-    opts: { A: "similar to", B: "compared to", C: "more than", D: "than" },
-    answer: "D"
-  },
-  {
-    id: 40,
-    q: "If people ______ cutting down forests, many animals will lose their natural habitats and may become extinct.",
-    opts: { A: "continue", B: "continued", C: "will continue", D: "continuing" },
-    answer: "A"
-  },
-  {
-    id: 41,
-    q: "Many endangered species will disappear ______ humans take immediate action to protect their habitats and ecosystems.",
-    opts: { A: "if", B: "in case", C: "or else", D: "unless" },
-    answer: "D"
-  },
-  {
-    id: 42,
-    q: "Students should ______ online resources such as e-books and educational websites to improve their learning efficiency.",
-    opts: { A: "make use of", B: "run out of", C: "look up to", D: "get along with" },
-    answer: "A"
-  },
-  {
-    id: 43,
-    q: "People are encouraged to ______ plastic use to protect the environment and reduce pollution.",
-    opts: { A: "cut down on", B: "come up with", C: "take part in", D: "look forward to" },
-    answer: "A"
-  },
-  {
-    id: 44,
-    q: "The instructor told the students ______ regularly if they wanted to improve their academic performance.",
-    opts: { A: "study", B: "to study", C: "studying", D: "studied" },
-    answer: "B"
-  },
-  {
-    id: 45,
-    q: "My teacher ______ me to join more extracurricular activities to develop soft skills and confidence.",
-    opts: { A: "decided", B: "promised", C: "offered", D: "advised" },
-    answer: "D"
   }
 ];
   function shuffleArray(array) {
