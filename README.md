@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Vocabulary & Grammar Test - 50 Questions</title>
+  <title>Vocabulary & Grammar Test - 45 Questions</title>
   <style>
     :root{--bg:#f6f8fb;--card:#fff;--accent:#2b6cb0;--correct:#28a745;--wrong:#dc3545}
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;background:var(--bg);color:#111}
@@ -31,7 +31,7 @@
 <body>
   <header>
     <div class="container">
-      <h1>Vocabulary & Grammar - 50-question Test</h1>
+      <h1>Vocabulary & Grammar - 45-question Test</h1>
       <div class="small">Điền chọn A, B, C hoặc D cho mỗi câu. Nhấn "Nộp bài" để chấm điểm và xem đáp án.</div>
     </div>
   </header>
@@ -58,131 +58,645 @@
 
   <script>
   // --- QUESTIONS DATA ---
-const questionsData = [
+    const questionsData = [
   {
     id: 1,
-    q: "Khi điện phân NaCl nóng chảy (điện cực trơ), ở cathode xảy ra?",
-    opts: { A: "Sự khử ion Cl-", B: "Sự oxi hóa ion Cl-", C: "Sự oxi hóa ion Na+", D: "Sự khử ion Na+" },
-    answer: "D"
+    q: "Nhóm nghề sửa chữa và bảo trì máy tính chủ yếu liên quan đến lĩnh vực nào?",
+    opts: {
+      A: "Lắp ráp, chẩn đoán và khắc phục sự cố phần cứng, phần mềm.",
+      B: "Thiết kế đồ họa và lập trình phần mềm.",
+      C: "Quản lý doanh nghiệp và tài chính.",
+      D: "Lắp đặt hệ thống điện dân dụng."
+    },
+    answer: "A"
   },
   {
     id: 2,
-    q: "Dãy nào sau đây sắp xếp các kim loại nhóm IA theo mức độ phản ứng với nước tăng dần?",
-    opts: { A: "K, Na, Li", B: "Na, K, Li", C: "Li, Na, K", D: "K, Li, Na" },
-    answer: "C"
+    q: "Công việc nào sau đây là của người làm nghề sửa chữa và bảo trì máy tính?",
+    opts: {
+      A: "Xác định và khắc phục lỗi phần cứng làm cho máy tính ngừng hoạt động.",
+      B: "Khắc phục những lỗ hổng về an toàn thông tin.",
+      C: "Quản lí, vận hành các thiết bị mạng.",
+      D: "Phân tích và xác định nhu cầu của hệ thống thông tin."
+    },
+    answer: "A"
   },
   {
     id: 3,
-    q: "Để bảo quản kim loại kiềm lâu dài, chúng thường được ngâm trong",
-    opts: { A: "dầu hoả", B: "nước máy", C: "ethyl alcohol", D: "giấm ăn" },
-    answer: "A"
+    q: "Mục đích chính của dịch vụ sửa chữa và bảo trì máy tính là gì?",
+    opts: {
+      A: "Làm cho máy tính chạy nhanh hơn bình thường",
+      B: "Duy trì sự ổn định của máy tính và thiết bị liên quan",
+      C: "Chỉ để nâng cấp phần mềm",
+      D: "Chỉ thay thế linh kiện khi hỏng"
+    },
+    answer: "B"
   },
   {
     id: 4,
-    q: "Dãy nào sau đây sắp xếp các dung dịch (cùng nồng độ 0,1 M) theo thứ tự pH giảm dần?",
-    opts: { A: "LiOH, Na2CO3, KCl", B: "Na2CO3, KCl, LiOH", C: "KCl, Na2CO3, LiOH", D: "Na2CO3, LiOH, KCl" },
-    answer: "A"
+    q: "Công việc nào KHÔNG liên quan đến phần cứng?",
+    opts: {
+      A: "Kiểm soát và duy trì hoạt động của máy tính",
+      B: "Đảm bảo kết nối máy tính vào mạng",
+      C: "Lắp đặt, sửa chữa linh kiện",
+      D: "Khắc phục lỗi phần cứng"
+    },
+    answer: "B"
   },
   {
     id: 5,
-    q: "Cấu hình electron của Fe2+ là",
-    opts: { A: "[Ar]3d6 4s2", B: "[Ar]3d5", C: "[Ar]3d6", D: "[Ar]3d4 4s1" },
-    answer: "C"
+    q: "Công việc nào KHÔNG liên quan đến phần mềm?",
+    opts: {
+      A: "Cài đặt driver thiết bị",
+      B: "Đảm bảo kết nối mạng",
+      C: "Cập nhật phần mềm",
+      D: "Phát hiện nguyên nhân hỏng thiết bị"
+    },
+    answer: "D"
   },
   {
     id: 6,
-    q: "Số lượng phối tử có trong phức chất [PtCl4(NH3)2] là",
-    opts: { A: "6", B: "2", C: "4", D: "7" },
+    q: "Việc cập nhật công nghệ mới là kĩ năng gì?",
+    opts: {
+      A: "Kĩ năng học hỏi, cập nhật kiến thức",
+      B: "Kĩ năng giải quyết vấn đề",
+      C: "Kĩ năng giao tiếp",
+      D: "Kĩ năng quản lí thời gian"
+    },
     answer: "A"
   },
   {
     id: 7,
-    q: "Dãy các kim loại đều có thể được điều chế bằng phương pháp điện phân dung dịch muối của chúng là:",
-    opts: { A: "Fe, Cu, Ag", B: "Mg, Zn, Cu", C: "Al, Fe, Cr", D: "Ba, Ag, Au" },
-    answer: "A"
+    q: "Nguyên lí hoạt động của máy tính được đào tạo nhiều ở bậc học nào?",
+    opts: {
+      A: "Cao học",
+      B: "Đại học",
+      C: "Cao đẳng",
+      D: "Trung cấp nghề"
+    },
+    answer: "B"
   },
   {
     id: 8,
-    q: "Phát biểu nào sau đây không đúng?",
+    q: "Phương án SAI về kiến thức của kỹ sư an toàn thông tin là gì?",
     opts: {
-      A: "Các nguyên tố kim loại chuyển tiếp dãy thứ nhất thuộc khối d",
-      B: "Zn là nguyên tử kim loại chuyển tiếp dãy thứ nhất duy nhất có phân lớp 3d đã điền đầy electron",
-      C: "Nguyên tử của các kim loại chuyển tiếp dãy thứ nhất đều có lớp vỏ bên trong của khí hiếm Ar",
-      D: "Kim loại chuyển tiếp dãy thứ nhất thường tạo hợp chất với nhiều số oxi hoá khác nhau"
+      A: "Hệ điều hành, mạng",
+      B: "Thiết kế mạng",
+      C: "Mã hóa thông tin",
+      D: "Công cụ xâm nhập"
     },
     answer: "B"
   },
   {
     id: 9,
-    q: "Kim loại nào sau đây điều chế được bằng phương pháp thủy luyện?",
-    opts: { A: "Mg", B: "Ca", C: "Cu", D: "K" },
+    q: "Phương án SAI về nhiệm vụ của kỹ sư quản trị mạng là gì?",
+    opts: {
+      A: "Quản lý thiết bị mạng",
+      B: "Bảo vệ mạng",
+      C: "Lập trình CSDL",
+      D: "Khắc phục sự cố mạng"
+    },
     answer: "C"
   },
   {
     id: 10,
-    q: "Nguyên tử trung tâm của phức chất [PtCl4]2- và [Fe(CO)5] lần lượt là",
-    opts: { A: "Pt4+ và Fe2+", B: "Pt2+ và Fe2+", C: "Cl và CO", D: "Pt2+ và Fe" },
-    answer: "D"
+    q: "Nghề nào chịu trách nhiệm thiết kế cấu trúc dữ liệu?",
+    opts: {
+      A: "Quản trị mạng",
+      B: "Front-end",
+      C: "Chuyên gia CSDL",
+      D: "Kiểm thử phần mềm"
+    },
+    answer: "C"
   },
   {
     id: 11,
-    q: "Kim loại nào sau đây khi tác dụng với dung dịch HCl và khí Cl2 (t°) cho cùng một loại muối?",
-    opts: { A: "bạc", B: "sắt", C: "đồng", D: "magie" },
+    q: "Trong dự án phần mềm giáo dục, cần làm gì để phần mềm hoàn thiện hơn?",
+    opts: {
+      A: "Không cần phản hồi người dùng",
+      B: "Làm theo chỉ đạo",
+      C: "Dựa vào kinh nghiệm cá nhân",
+      D: "Dựa vào phản hồi người dùng và cập nhật liên tục"
+    },
     answer: "D"
   },
   {
     id: 12,
-    q: "Nhỏ vài giọt dung dịch phenolphthalein vào dung dịch Na2CO3 thì dung dịch chuyển sang màu",
-    opts: { A: "tím", B: "vàng", C: "xanh", D: "hồng" },
+    q: "Nhóm nghề quản trị CNTT KHÔNG liên quan đến công việc nào?",
+    opts: {
+      A: "Quản trị mạng",
+      B: "Bảo mật hệ thống",
+      C: "Quản trị hệ thống",
+      D: "Phát triển phần mềm"
+    },
     answer: "D"
   },
   {
     id: 13,
-    q: "Tổng số proton và electron của ion Mg2+ là",
-    opts: { A: "26", B: "24", C: "22", D: "12" },
-    answer: "C"
+    q: "Vai trò của quản trị hệ thống mạng là gì?",
+    opts: {
+      A: "Cài phần mềm văn phòng",
+      B: "Đảm bảo mạng ổn định và an toàn",
+      C: "Viết bài quảng cáo",
+      D: "Sửa máy in"
+    },
+    answer: "B"
   },
   {
     id: 14,
-    q: "Phức chất tạo thành khi thay toàn bộ H2O bằng NH3 trong [Ni(H2O)6]2+ là",
+    q: "Việc nào KHÔNG thuộc nhóm quản trị CNTT?",
     opts: {
-      A: "[Ni(NH3)6]2+",
-      B: "[Ni(NH3)2(H2O)4]",
-      C: "[Ni(NH3)(H2O)5]2+",
-      D: "[Ni(NH3)5(H2O)]2+"
+      A: "Quản trị mạng",
+      B: "Quản trị CSDL",
+      C: "Phát triển game",
+      D: "An toàn thông tin"
     },
-    answer: "A"
+    answer: "C"
   },
   {
     id: 15,
-    q: "Nước cứng là nước có chứa nhiều ion",
-    opts: { A: "Mg2+ và Ca2+", B: "Na+ và K+", C: "F- và Cl-", D: "SO4^2- và CO3^2-" },
-    answer: "A"
+    q: "Kỹ năng quan trọng của quản trị viên mạng là gì?",
+    opts: {
+      A: "Chỉ biết dùng máy tính",
+      B: "Hiểu mạng, bảo mật, xử lý sự cố",
+      C: "Chỉ cần giao tiếp",
+      D: "Thiết kế đồ họa"
+    },
+    answer: "B"
   },
   {
     id: 16,
-    q: "Kim loại nào sau đây có nhiệt độ nóng chảy thấp nhất?",
-    opts: { A: "Li", B: "Cu", C: "Ag", D: "Hg" },
-    answer: "D"
+    q: "Thách thức của quản trị an toàn thông tin là gì?",
+    opts: {
+      A: "Cập nhật mối đe dọa và bảo vệ dữ liệu",
+      B: "Lập trình web",
+      C: "Kiểm tra tốc độ mạng",
+      D: "Viết hướng dẫn"
+    },
+    answer: "A"
   },
   {
     id: 17,
-    q: "Nguyên tố Ca thuộc nhóm nào?",
-    opts: { A: "IIIA", B: "IA", C: "IVA", D: "IIA" },
-    answer: "D"
+    q: "Ngành học phù hợp để làm quản trị CSDL là gì?",
+    opts: {
+      A: "CNTT định hướng quản trị hệ thống",
+      B: "Tâm lý học",
+      C: "Truyền thông",
+      D: "Ngôn ngữ học"
+    },
+    answer: "A"
   },
   {
     id: 18,
-    q: "Phát biểu đúng về các phức chất [PtCl2(NH3)4]2+ và [FeF6]3- là",
+    q: "Cách chọn ngành phù hợp là gì?",
     opts: {
-      A: "Số lượng phối tử lần lượt là 4 và 6",
-      B: "Điện tích lần lượt là +4 và +3",
-      C: "Nguyên tử trung tâm là Pt4+ và Fe3+",
-      D: "Cả hai đều ít tan trong nước"
+      A: "Đánh giá năng lực, thị trường, điểm chuẩn",
+      B: "Theo bạn bè",
+      C: "Chọn điểm thấp",
+      D: "Theo xu hướng"
+    },
+    answer: "A"
+  },
+  {
+    id: 19,
+    q: "Bạn thích CNTT và đồ họa nên chọn ngành gì?",
+    opts: {
+      A: "Thiết kế đồ họa",
+      B: "Kiểm thử",
+      C: "Quản trị mạng",
+      D: "An toàn thông tin"
+    },
+    answer: "A"
+  },
+  {
+    id: 20,
+    q: "Mục đích của hội thảo hướng nghiệp là gì?",
+    opts: {
+      A: "Chọn trường đại học",
+      B: "Định hướng nghề và cung cấp thông tin",
+      C: "Giới thiệu phần mềm",
+      D: "Dạy lập trình"
+    },
+    answer: "B"
+  },
+  {    
+    id: 21,
+    q: "Hội thảo hướng nghiệp có thể tổ chức dưới hình thức nào?",
+    opts: {
+      A: "Trực tiếp tại trường",
+      B: "Trực tuyến",
+      C: "Cả trực tiếp và trực tuyến",
+      D: "Chỉ tài liệu in"
     },
     answer: "C"
-  }
-];
+  },
+  {
+    id: 22,
+    q: "Ngành nào thuộc lĩnh vực CNTT?",
+    opts: {
+      A: "Kỹ sư xây dựng",
+      B: "Bác sĩ",
+      C: "Phát triển phần mềm",
+      D: "Luật sư"
+    },
+    answer: "C"
+  },
+  {
+    id: 23,
+    q: "Xu hướng ngành CNTT trong tương lai?",
+    opts: {
+      A: "Giảm nhu cầu",
+      B: "Ổn định",
+      C: "Tăng mạnh do số hóa và AI",
+      D: "Chỉ phát triển ở nước lớn"
+    },
+    answer: "C"
+  },
+  {
+    id: 24,
+    q: "Yếu tố giúp chọn nghề phù hợp?",
+    opts: {
+      A: "Đánh giá khả năng và sở thích",
+      B: "Theo bạn bè",
+      C: "Theo phim",
+      D: "Ngẫu nhiên"
+    },
+    answer: "A"
+  },
+  {
+    id: 25,
+    q: "Vì sao Machine Learning và NLP quan trọng?",
+    opts: {
+      A: "Tạo phần cứng mạnh",
+      B: "Giúp máy tự học và hiểu ngôn ngữ",
+      C: "Chỉ xử lí ảnh",
+      D: "Không cần dữ liệu"
+    },
+    answer: "B"
+  },
+  {
+    id: 26,
+    q: "Đặc trưng của học máy là gì?",
+    opts: {
+      A: "Dựa vào quy tắc lập trình",
+      B: "Học từ dữ liệu và dự đoán",
+      C: "Thay đổi dữ liệu đầu vào",
+      D: "Tự tạo chương trình mới"
+    },
+    answer: "B"
+  },
+  {
+    id: 27,
+    q: "Phương pháp dùng dữ liệu có nhãn?",
+    opts: {
+      A: "Học có giám sát",
+      B: "Không giám sát",
+      C: "Học sâu",
+      D: "Tăng cường"
+    },
+    answer: "A"
+  },
+  {
+    id: 28,
+    q: "Dữ liệu có nhãn là gì?",
+    opts: {
+      A: "Không có chỉ dẫn",
+      B: "Có nhãn cụ thể",
+      C: "Không cấu trúc",
+      D: "Chỉ phân nhóm"
+    },
+    answer: "B"
+  },
+  {
+    id: 29,
+    q: "Chia train/test để làm gì?",
+    opts: {
+      A: "Giảm dữ liệu",
+      B: "Kiểm tra mô hình với dữ liệu mới",
+      C: "Tránh trùng lặp",
+      D: "Giảm thời gian"
+    },
+    answer: "B"
+  },
+  {
+    id: 30,
+    q: "Phân loại email spam thuộc loại nào?",
+    opts: {
+      A: "Không giám sát",
+      B: "Có giám sát",
+      C: "Học sâu",
+      D: "Tăng cường"
+    },
+    answer: "B"
+  },
+  {
+    id: 31,
+    q: "Vì sao học máy nhận dạng giọng nói?",
+    opts: {
+      A: "Lập trình rõ đặc điểm",
+      B: "Học từ dữ liệu",
+      C: "Thay đổi dữ liệu",
+      D: "Không cần dữ liệu"
+    },
+    answer: "B"
+  },
+  {
+    id: 32,
+    q: "Quy trình học máy gồm gì?",
+    opts: {
+      A: "Thu thập → xử lý → huấn luyện → đánh giá → sử dụng",
+      B: "Thu thập → phân tích → dùng",
+      C: "Chọn thuật toán → phân tích",
+      D: "Thu thập → triển khai"
+    },
+    answer: "A"
+  },
+  {
+    id: 33,
+    q: "Mô hình chẩn đoán bệnh học từ đâu?",
+    opts: {
+      A: "Triệu chứng và xét nghiệm",
+      B: "Từ bác sĩ",
+      C: "Từ bản đồ",
+      D: "Từ điều trị"
+    },
+    answer: "A"
+  },
+  {
+    id: 34,
+    q: "Dữ liệu ảnh đa dạng thì làm gì?",
+    opts: {
+      A: "Lập trình rõ đặc điểm",
+      B: "Cung cấp nhiều ảnh để học",
+      C: "Ít ảnh",
+      D: "Không nhãn"
+    },
+    answer: "B"
+  },
+  {
+    id: 35,
+    q: "Phát hiện gian lận dùng phương pháp nào?",
+    opts: {
+      A: "Có giám sát",
+      B: "Không giám sát",
+      C: "Học sâu",
+      D: "Tăng cường"
+    },
+    answer: "A"
+  },
+  {
+    id: 36,
+    q: "Khoa học dữ liệu là gì?",
+    opts: {
+      A: "Phân tích dữ liệu tìm tri thức",
+      B: "Quản lý phần mềm",
+      C: "Không cần dữ liệu",
+      D: "Chỉ dữ liệu lớn"
+    },
+    answer: "A"
+  },
+  {
+    id: 37,
+    q: "Mục tiêu chính của khoa học dữ liệu?",
+    opts: {
+      A: "Thu thập dữ liệu",
+      B: "Phân tích để ra quyết định",
+      C: "Lưu trữ",
+      D: "Phân phối"
+    },
+    answer: "B"
+  },
+  {
+    id: 38,
+    q: "Công cụ của khoa học dữ liệu?",
+    opts: {
+      A: "Toán, thống kê, CNTT",
+      B: "Công cụ tìm kiếm",
+      C: "Soạn thảo",
+      D: "CSDL"
+    },
+    answer: "A"
+  },
+  {
+    id: 39,
+    q: "Phân loại khách hàng dùng gì?",
+    opts: {
+      A: "Có giám sát",
+      B: "Không giám sát",
+      C: "Học sâu",
+      D: "Hồi quy"
+    },
+    answer: "B"
+  },
+  {
+    id: 40,
+    q: "Tối ưu sản xuất cần gì?",
+    opts: {
+      A: "Quản lý tài nguyên",
+      B: "Dùng ML phân tích",
+      C: "Dự đoán số lượng",
+      D: "Giả thuyết"
+    },
+    answer: "B"
+  },
+  {
+    id: 41,
+    q: "Mô phỏng là gì?",
+    opts: {
+      A: "Tạo sản phẩm mới",
+      B: "Sao chép hoàn toàn",
+      C: "Mô hình ảo tái hiện hệ thống",
+      D: "Chỉ dùng quân sự"
+    },
+    answer: "C"
+  },
+  {
+    id: 42,
+    q: "Lợi ích mô phỏng?",
+    opts: {
+      A: "Mô tả động vật",
+      B: "Thay thế hoàn toàn",
+      C: "Luyện tập an toàn",
+      D: "Bỏ huấn luyện"
+    },
+    answer: "C"
+  },
+  {
+    id: 43,
+    q: "Mô phỏng trong kỹ thuật giúp gì?",
+    opts: {
+      A: "Không cần kiểm tra",
+      B: "Phát hiện lỗi trước sản xuất",
+      C: "Giảm sáng tạo",
+      D: "Giảm chính xác"
+    },
+    answer: "B"
+  },
+  {
+    id: 44,
+    q: "Tùy chỉnh mô phỏng giúp gì?",
+    opts: {
+      A: "Tăng phức tạp",
+      B: "Không cần chuyên gia",
+      C: "Tìm lỗi phần mềm",
+      D: "Kiểm tra giả thuyết"
+    },
+    answer: "D"
+  },
+  {
+    id: 45,
+    q: "Dạy hệ Mặt Trời bằng mô phỏng?",
+    opts: {
+      A: "Tưởng tượng",
+      B: "Xem phim",
+      C: "Phần mềm 3D tương tác",
+      D: "Tranh tĩnh"
+    },
+    answer: "C"
+  },
+  {
+    id: 46,
+    q: "Mô phỏng trong game?",
+    opts: {
+      A: "Ảnh ngẫu nhiên",
+      B: "Mô hình hành vi thực",
+      C: "Ảnh đơn giản",
+      D: "Chỉ âm thanh"
+    },
+    answer: "B"
+  },
+  {
+    id: 47,
+    q: "Lĩnh vực ít dùng mô phỏng?",
+    opts: {
+      A: "Y học",
+      B: "Giải trí",
+      C: "Tài chính kế toán",
+      D: "Giáo dục"
+    },
+    answer: "C"
+  },
+  {
+    id: 48,
+    q: "Vai trò phần mềm mô phỏng?",
+    opts: {
+      A: "Chỉ hình ảnh",
+      B: "Tạo mô hình ảo tương tác",
+      C: "Chỉ quân sự",
+      D: "Thay thế hoàn toàn"
+    },
+    answer: "B"
+  },
+  {
+    id: 49,
+    q: "Lợi ích mô phỏng trong giáo dục?",
+    opts: {
+      A: "Thay giáo viên",
+      B: "Tăng độ khó",
+      C: "Thực hành an toàn",
+      D: "Phụ thuộc máy"
+    },
+    answer: "C"
+  },
+  {
+    id: 50,
+    q: "Vì sao dùng mô phỏng thay thực tế?",
+    opts: {
+      A: "Đẹp hơn",
+      B: "Chính xác hơn",
+      C: "Dễ hơn",
+      D: "Tiết kiệm và an toàn"
+    },
+    answer: "D"
+  },
+  {
+    id: 51,
+    q: "Dữ liệu lớn có đặc điểm gì quan trọng?",
+    opts: {
+      A: "Có thể được xử lý dễ dàng và nhanh chóng.",
+      B: "Không có kích thước lớn và dễ phân tích.",
+      C: "Có sự đa dạng về các loại dữ liệu và thường xuyên được cập nhật.",
+      D: "Không thay đổi theo thời gian."
+    },
+    answer: "C"
+  },
+  {
+    id: 52,
+    q: "Khi ứng dụng Khoa học dữ liệu để phân tích hành vi của khách hàng, bạn sẽ sử dụng kỹ thuật nào để phân loại khách hàng thành các nhóm?",
+    opts: {
+      A: "Học có giám sát",
+      B: "Học không giám sát",
+      C: "Học sâu",
+      D: "Học máy hồi quy"
+    },
+    answer: "B"
+  },
+  {
+    id: 53,
+    q: "Máy tính đóng vai trò quan trọng trong tất cả các giai đoạn của quy trình khoa học dữ liệu như thu thập, xử lí, phân tích và trực quan hóa dữ liệu. Phương án nào sau đây không phải là vai trò của máy tính trong khoa học dữ liệu?",
+    opts: {
+      A: "Hạn chế khả năng lưu trữ dữ liệu lớn",
+      B: "Phân tích và khai phá dữ liệu phức tạp",
+      C: "Tạo ra các biểu diễn trực quan của dữ liệu",
+      D: "Tự động hoá các nhiệm vụ lặp lại trong xử lí dữ liệu"
+    },
+    answer: "A"
+  },
+  {
+    id: 54,
+    q: "Dự án Hệ gene người đã ứng dụng sức mạnh máy tính để giải mã chuỗi gene phức tạp của con người, giúp hoàn thành khối lượng công việc khổng lồ trong thời gian ngắn. Câu trả lời nào sau đây là kết quả trực tiếp của việc sử dụng máy tính trong Dự án Hệ gene người?",
+    opts: {
+      A: "Tạo ra các mẫu sinh học nhân tạo",
+      B: "Hoàn thành bản đồ gene trong thời gian ngắn hơn",
+      C: "Giảm độ dài hệ gene người",
+      D: "Tạo ra thiết bị xét nghiệm cầm tay"
+    },
+    answer: "B"
+  },
+  {
+    id: 55,
+    q: "Trong khoa học dữ liệu, trực quan hóa dữ liệu giúp trình bày kết quả phân tích một cách dễ hiểu và sinh động. Phương án nào sau đây giải thích đúng nhất vai trò của trực quan hoá dữ liệu?",
+    opts: {
+      A: "Chuyển đổi dữ liệu thành file văn bản để lưu trữ",
+      B: "Giúp giảm độ phức tạp của mô hình dữ liệu bằng cách loại bỏ thuộc tính",
+      C: "Hỗ trợ khám phá, trình bày kết quả và giao tiếp hiệu quả với người dùng",
+      D: "Là bước cuối cùng để mã hóa dữ liệu trước khi xử lí"
+    },
+    answer: "C"
+  },
+  {
+    id: 56,
+    q: "Khi phân tích dữ liệu gene, các máy tính sử dụng khả năng xử lí song song để tăng tốc độ tính toán. Cách nào sau đây giúp quá trình phân tích dữ liệu gene diễn ra nhanh hơn nhờ máy tính?",
+    opts: {
+      A: "Sử dụng phần mềm vẽ biểu đồ thủ công",
+      B: "Xử lí dữ liệu theo từng đoạn, một cách tuần tự",
+      C: "Tăng bộ nhớ RAM mà không cần thêm lõi xử lí",
+      D: "Chia nhỏ và xử lí đồng thời nhiều phần của dữ liệu bằng tính toán song song"
+    },
+    answer: "D"
+  },
+  {
+    id: 57,
+    q: "Bạn được giao một nhiệm vụ phân tích dữ liệu lớn với yêu cầu tự động hoá, giảm lỗi thao tác tay, và cần tốc độ xử lí nhanh. Cách nào sau đây là phù hợp nhất để thực hiện nhiệm vụ này?",
+    opts: {
+      A: "Sử dụng phần mềm bảng tính và nhập liệu thủ công",
+      B: "Áp dụng thuật toán học máy trên nền tảng điện toán đám mây có hỗ trợ tự động hoá",
+      C: "Sử dụng điện thoại để xử lí dữ liệu qua ứng dụng di động",
+      D: "Chia sẻ dữ liệu cho từng người trong nhóm để xử lí riêng"
+    },
+    answer: "B"
+  },
+  {
+    id: 58,
+    q: "Một nhóm nghiên cứu quốc tế cùng hợp tác giải mã hệ gene người, trong đó dữ liệu được thu thập ở nhiều nơi và xử lí tập trung. Phương án nào sau đây thể hiện đúng nhất lợi ích của việc dùng máy tính trong bối cảnh này?",
+    opts: {
+      A: "Cho phép người dùng sao chép dữ liệu thủ công giữa các quốc gia",
+      B: "Tăng thời gian phản hồi khi có nhiều dữ liệu cùng lúc",
+      C: "Tích hợp dữ liệu từ các nhóm nghiên cứu để phân tích thống nhất và hiệu quả hơn",
+      D: "Giảm sự hợp tác khoa học do phụ thuộc vào máy tính"
+    },
+    answer: "C"
+  }];
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
